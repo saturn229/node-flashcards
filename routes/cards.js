@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
         templateData.hint = hint;
         templateData.sideToShow = 'answer';
         templateData.sideToShowDisplay = 'Answer';
-    } else if {
+    } else if ( sided === 'answer'){
         templateData.sideToShow = 'question';
         templateData.sideToShowDisplay = 'Question';
     }
